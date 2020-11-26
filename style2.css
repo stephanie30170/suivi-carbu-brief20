@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width: 767px){
+
+body{
+    background: #e6e6e6;
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    box-shadow: 6px 6px 14px 0 rgba(0, 0, 0, 0.2),
+    -8px -8px 18px 0 rgba(255, 255, 255, 0.55);
+    border-radius: 40px;
+    padding: 4px 5px 10px;
+}
+h1 {
+    line-height: 150px;
+    font-size: 24px;
+    text-align: center;
+    margin: 5vh 0 5vh 0;
+    color: #999;
+    width: 150px;
+    height: 150px;
+    font-family: Arial, sans-serif;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid var(--back-color);
+    box-shadow: inset 0px 0px 4px rgba(255, 255, 255, 0),
+              inset 3px 3px 5px rgba(55, 84, 170, .15),
+              inset -3px -3px 5px rgba(255, 255, 255, .5),
+              0px 0px 4px rgba(255, 255, 255, .2);
+}
+h2 {
+    color: #999;
+    font-family: Arial, sans-serif;
+}
+label{
+    color: #999;
+    font-family: Arial, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    
+}
+input {
+    height: 5vh;
+    margin-bottom: 3vh;
+    border-radius: 10px;
+    background:transparent;
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+}
+button{
+    color: #EC7CDA;
+    font-size: 1.5rem;
+    width: 15vh;
+    height: 5vh;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+}
+p{
+    color: #999;
+    font-family: Arial, sans-serif;
+    margin: 50px 0 50px 0;
+
+}
+a{
+    align-self: center;
+    margin: 50px 0 50px 0;
+    color: #EC7CDA;
+    font-size: 1.5rem;
+    width: 15vh;
+    height: 5vh;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+}
+table{
+    align-self: center;
+    margin: 5vh;
+    width: 70vw;
+    color: #5A88FF;
+    border-radius: 10px;
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+}
+
+}
+@media screen and (min-width: 768px){
+body{
+    background: #e6e6e6;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 70vh;
+    background: transparent;
+    box-shadow: 12px 12px 28px 0 rgba(0, 0, 0, 0.2),
+    -16px -16px 36px 0 rgba(255, 255, 255, 0.55);
+    border-radius: 40px;
+    padding: 4px 5px 10px;
+}
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin: 5vh 0 5vh 0;
+    color: #999;
+    font-family: Arial, sans-serif;
+}
+h2 {
+    text-align:center;
+    color: #999;
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+}
+label{
+    color: #999;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0 0 10vw;
+    justify-content: center;
+    height: 60vh;
+    
+}
+input {
+    width: 50vw;
+    height: 6vh;
+    margin-bottom: 5vh;
+    border-radius: 10px;
+    background:transparent;
+    box-shadow: inset 6px 6px 10px 0 rgba(0, 0, 0, 0.2),
+    inset -6px -6px 10px 0 rgba(255, 255, 255, 0.5);
+}
+button{
+    /*align-self: center;*/
+    color: #EC7CDA;
+    font-size: 1.5rem;
+    width: 20vh;
+    height: 6vh;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+}
+p{
+    align-self: center;
+    font-size: 24px;
+    color: #999;
+    font-family: Arial, sans-serif;
+    margin: 50px 0 50px 0;
+
+}
+a{
+    text-align: center;
+    align-self: center;
+    margin: 50px 0 50px 0;
+    color: #EC7CDA;
+    font-size: 1.5rem;
+    width: 20vh;
+    height: 6vh;
+    border-radius: 10px;
+    background: transparent;
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+
+}
+table{
+    text-align:center;
+    align-self: center;
+    margin: 5vh;
+    width: 40vw;
+    color: #5A88FF;
+    border-radius: 10px;
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+}
+
+}

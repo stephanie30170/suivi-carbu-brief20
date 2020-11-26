@@ -2,11 +2,12 @@
 <body>
 
   <header>
-    <h1>suivi-carbu</h1>
-    <h2>page d'accueil</h2>
+    <h1>Suivi-Carbu</h1>
+  
   </header>
 
   <main>
+  <h2>Page d'accueil</h2>
     
     <?php
 

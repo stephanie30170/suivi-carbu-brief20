@@ -2,11 +2,12 @@
 <body>
 
   <header>
-    <h1>suivi-carbu</h1>
-    <h2>ajout d'un plein</h2>
+    <h1>Suivi-Carbu</h1>
+    
   </header>
 
   <main>
+  <h2>Ajout d'un plein</h2>
     <form action="ajout--traitement.php" method="post">
       
       <label for="prix-au-litre">Prix payé (au litre)</label>
